@@ -1,0 +1,33 @@
+<!Doctype html>
+<html>
+<head>
+	<title>Cat App</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script language="javascript" type="text/javascript">
+	function windowClose() {
+	window.open('','index.html','');
+	window.close();
+	}
+	</script>
+	
+</head>
+<body>
+
+<h1>Cat App</h1>
+
+<p>This is a gallery of 5 images of cats, click an image to see the slide show.</p>
+
+	<div class="gallery">
+		<a href="slideshow.html"><img src="1.jpg"  alt="Cat Image 1" height="10%" width="10%"></a>
+		<a href="slideshow.html"><img src="2.jpg" alt="Cat Image 2" height="10%" width="10%"></a>
+		<a href="slideshow.html"><img src="3.jpg" alt="Cat Image 3" height="10%" width="10%"></a>
+		<a href="slideshow.html"><img src="4.jpg" alt="Cat Image 4" height="10%" width="10%"></a>
+		<a href="slideshow.html"><img src="5.jpg" alt="Cat Image 5" height="10%" width="10%"></a>
+	</div>
+	
+	<div class="exit">
+			<button class="exit" onclick="windowClose();">Exit Cat App</button>
+	</div>
+	
+</body>
+</html>
